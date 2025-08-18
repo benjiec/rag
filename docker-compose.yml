@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  chromadb:
+    image: chromadb/chroma:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./chromadb-data:/data
+    environment:
+      - IS_PERSISTENT=TRUE # Ensures data persists across container restarts
+      - ANONYMIZED_TELEMETRY=FALSE # Optional: disable telemetry
+
+  rag:
+    build: .
+    depends_on:
+      - chromadb
+    volumes:
+      - ./data:/app/data
+      - .:/app
+    environment:
+      - CHROMADB_HOST=chromadb
+      - CHROMADB_PORT=8000
+    # Override this command to run different scripts:
+    # docker-compose run rag python src/inject_data.py
+    # docker-compose run rag python src/demo_rag.py
+    # docker-compose run rag python src/query_rag.py
+    command: ["python", "src/demo_rag.py"]

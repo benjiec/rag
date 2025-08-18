@@ -1,0 +1,322 @@
+Target	Species	gRNA sequence	Addgene Plasmid ID	Application	Cas9 species	Pubmed ID	Author/Lab
+AAVS1	H. sapiens	GGGGCCACTAGGGACAGGAT	58252	cut	S. pyogenes	24870050	Goncalves
+AAVS1	H. sapiens	GGGGCCACTAGGGACAGGAT	41818	cut	S. pyogenes	23287722	Church
+AAVS1	H. sapiens	GGGGCCACTAGGGACAGGAT	50662	cut	S. pyogenes	24336569	Sabatini
+AAVS1	H. sapiens	GGGGCCACTAGGGACAGGAT	70661	cut	S. pyogenes	26472758	Sabatini
+AAVS1	H. sapiens	GTCCCCTCCACCCCACAGTG	41817	cut	S. pyogenes	23287722	Church
+AAVS1	H. sapiens	GGGGCCACTAGGGACAGGAT	72833	cut	S. pyogenes	27052166	Kanemaki
+AAVS1	H. sapiens	TGTCCCTAGTGGCCCCACTG		cut	S. pyogenes	26789497	Corn
+AAVS1	H. sapiens	ACAGTGGGGCCACTAGGGAC		cut	S. pyogenes	26789497	Corn
+ACTB	H. sapiens	UGGAGCGAGCAUCCCCCAAA	74705	RNA targeting	S. pyogenes	26997482	Yeo
+actII-orf4	S. coelicolor	ATTACCAGGGACCGGAGTTC	62552	cut	S. pyogenes	25739462	Jiang
+ade6+	S. pombe	TCTATTGTTCAGATGCCTCG	52225	cut	S. pyogenes	25352017	Zaratiegui
+ade6-L469	S. pombe	TCTATTGTTCAGATGCCTTG	52227	cut	S. pyogenes	25352017	Zaratiegui
+ade6-M210	S. pombe	TCTATTGTTCAGATGCTTCG	52226	cut	S. pyogenes	25352017	Zaratiegui
+Alk and Eml	M. musculus		64071	cut	S. pyogenes	25337876	Ventura
+AMPK alpha 1	H. sapiens	GGCTGTCGCCATCTTTCTCC	74374	nick	S. pyogenes	26816379	Shaw
+AMPK alpha 1	H. sapiens	GAAGATCGGCCACTACATTC	74375	nick	S. pyogenes	26816379	Shaw
+AMPK alpha 2	H. sapiens	GTCAGCCATCTTCGGCGCGCG	74376	nick	S. pyogenes	26816379	Shaw
+AMPK alpha 2	H. sapiens	GAAGATCGGACACTACGTGC	74377	nick	S. pyogenes	26816379	Shaw
+Amplicon, JAK2	H. sapiens	GAGGCATATTCTTCTCCTGG	70660	cut	S. pyogenes	26472758	Sabatini
+ANT1	S. lycopersicum	TGTCGTTTATAATTTGTAGA	70019	cut	S. pyogenes	26541286	Voytas
+ANT1	S. lycopersicum	ACAATTTAATACACCTTTT	70018	cut	S. pyogenes	26541286	Voytas
+AOC	N. attenuata	CAAAAGACTGTCAATTCCCT		cut	S. pyogenes	26479191	Kim
+APC	H. sapiens	GAAGCGGGCAAAGGGGCGAC	58780	cut/nick	S. pyogenes	24954249	Yamamoto
+apoea	D. rerio	GGATGAGCCAAGAAGCCGCT	42241	cut	S. pyogenes	23360964	Joung
+ASCL1	H. sapiens	TGGATGGAGAGTTTGCAAGGAGC	64131	activate	S. pyogenes	25619936	Sato
+ASCL1	H. sapiens	TGGGCAGCCGCTCGCTGCAGCAG	64130	activate	S. pyogenes	25619936	Sato
+ASCL1	H. sapiens	TGGGGCTGGGTGTCCCATTGAAA	64129	activate	S. pyogenes	25619936	Sato
+ASCL1	H. sapiens	TGGTGTTTATTCAGCCGGGAGTC	64132	activate	S. pyogenes	25619936	Sato
+Asip	R. norvegicus	ATGACAGGAGTCTAACTCAC	60968	cut	S. pyogenes	24967838	Mashimo
+ATF1	H. sapiens	TAGGAATCAAACACTTTTATTGG	64690	tag	S. pyogenes	26355004	Mendenhall
+ATM	H. sapiens	TGAATTGGGATGCTGTTTTT	58779	cut	S. pyogenes	24954249	Yamamoto
+avr-14	C. elegans	GATTGGAGAGTTAGACCACG	58981	cut	S. pyogenes	24879462	Mello
+avr-15	C. elegans	GTTTGCAATATAAGTCACCC	58982	cut	S. pyogenes	24879462	Mello
+AXIN2	H. sapiens	TATGTTGGTGACTTGCCTCC	58782	cut	S. pyogenes	24954249	Yamamoto
+BACH2	H. sapiens	AATGTAGCGATTGAGAGTGTGGG	71828	methylation	S. pyogenes	26969735	Zoldoš
+BCR/ABL amplicon	H. sapiens	GGCTCCCTTCAAGTGGGATG	70658	cut	S. pyogenes	26472758	Sabatini
+BFP		ATGGCGTGCAGTGCTTCAGC		cut	S. pyogenes	26789497	Corn
+BIN2	L. sativa	ATCACAGTGATGCTCGTCAA		cut	S. pyogenes	26479191	Kim
+BLIMP1	H. sapiens	CGGATGGGGTAAACGACCCG	59724	cut	S. pyogenes	25543152	Hanna
+BRI1	A. thaliana	TTTGAAAGATGGAAGCGCGG		cut	S. pyogenes	26479191	Kim
+BRI1	A. thaliana	TGAAACTAAACTGGTCCACA		cut	S. pyogenes	26479191	Kim
+BT1754	B. thetaiotaomicron	GAAAATGGGGTGTATCCTGC	68892	interfere	S. pyogenes	26918244	Lu
+BT1854	B. thetaiotaomicron	ATTGAAGAACAAAAGCAGTT	68891	interfere	S. pyogenes	26918244	Lu
+C16orf80	H. sapiens	CGATGCTGTAGAGGATGGAG	70650	cut	S. pyogenes	26472758	Sabatini
+C16orf80	H. sapiens	TGTCTGAGAAGTAAACCCGT	70651	cut	S. pyogenes	26472758	Sabatini
+C3orf17	H. sapiens	GGGCCAAATGGGGTTTGTGG	70653	cut	S. pyogenes	26472758	Sabatini
+C3orf17	H. sapiens	GTGTGAGAATCCCTAAGGCG	70652	cut	S. pyogenes	26472758	Sabatini
+C9orf114	H. sapiens	CAGGCGGGCTCACCTCCGTG	70654	cut	S. pyogenes	26472758	Sabatini
+C9orf114	H. sapiens	GCGGCAGAGAAGGAGGACCG	70655	cut	S. pyogenes	26472758	Sabatini
+CAN1	S. cerevisiae	GATACGTTCTCTATGGAGGA	43803	cut	S. pyogenes	23460208	Church
+Caspase-8	H. sapiens	GCCTGGACTACATTCCGCAA	75164	cut	S. pyogenes	27194728	Bornhauser
+CCR5	H. sapiens	TGACATCAATTATTATACAT		cut	S. pyogenes	26789497	Corn
+CD71	H. sapiens	GGACGCGCTAGTGTGAGTGC	46918	interfere	S. pyogenes	23849981	Qi
+CDH1	H. sapiens	TGACTTGCGAGGGACGCATT	58781	cut	S. pyogenes	24954249	Yamamoto
+CDKN1B	H. sapiens	GAAGCCGGGACCTGGACCAG	60905	activate	S. pyogenes	25307933	Vale
+CEBPB	H. sapiens	CTCCGGCCACTGCTAGCGCGG	64036	tag	S. pyogenes	26355004	Mendenhall
+CEBPB	H. sapiens	GCCGGCAGGGGGACGCGCGCGG	64047	tag	S. pyogenes	26355004	Mendenhall
+Cent1	M. musculus	GGCAACGTTTGACTTCCTGA	50718	cut	S. pyogenes	24284873	Ikawa
+CFTR	H. sapiens	TCTGTATCTATATTCATCAT	58783	cut	S. pyogenes	24954249	Yamamoto
+CREB1	H. sapiens	GCCACAAATCAGATTAATTTGG	64940	tag	S. pyogenes	26355004	Mendenhall
+CREB1	H. sapiens	GCCACAAATCAGATTAATTTGGG	64939	tag	S. pyogenes	26355004	Mendenhall
+csr-1	N. crassa	GAGTGGGAGGGTCCCGTCCT	68060	cut	S. pyogenes	Fungal Biology and Biotechnology 2015, 2:4	Hong
+Ctnnb1	M. musculus	AGCTCCTTCCCTGAGTGGCA	59912	cut	S. pyogenes	25119044	Jacks
+Ctnnb1	M. musculus	CTGTGGTGGTGGCACCAGAA	59911	cut	S. pyogenes	25119044	Jacks
+CXCR4	H. sapiens	GCAGGTAGCAAAGTGACGCCGA	46917	interfere	S. pyogenes	23849981	Qi
+CXCR4	H. sapiens	CCTCTTTGTCATCACGCTTC		cut	S. pyogenes	26789497	Corn
+CYC1m promoter	S. cerevisiae	ACAGAGCACATGCATGCCAT	64385	activate	S. pyogenes	23977949	Lu
+CYC1m promoter	S. cerevisiae	ACTAATACTTTCAACATTTT	64387	activate	S. pyogenes	23977949	Lu
+CYC1m promoter	S. cerevisiae	ATATCGAATTCCTGCAGCCC	64382	activate	S. pyogenes	23977949	Lu
+CYC1m promoter	S. cerevisiae	ATATTCTTTCCTTATACATT	64380	activate	S. pyogenes	23977949	Lu
+CYC1m promoter	S. cerevisiae	CTAGATATTAAAATGTCTAA	64379	activate	S. pyogenes	23977949	Lu
+CYC1m promoter	S. cerevisiae	GTTGAAAGTATTAGTTAAAG	64388	activate	S. pyogenes	23977949	Lu
+CYC1m promoter	S. cerevisiae	TACATACAGTAGGATCCTA	64381	activate	S. pyogenes	23977949	Lu
+CYC1m promoter	S. cerevisiae	TATAGTAATTTATGCTGCAA	64383	activate	S. pyogenes	23977949	Lu
+CYC1m promoter	S. cerevisiae	TGCAAAGGTCCTAATGTATA	64384	activate	S. pyogenes	23977949	Lu
+CYC1m promoter	S. cerevisiae	TGTATGTACATACAGTACCC	64386	activate	S. pyogenes	23977949	Lu
+CYC1m promoter	S. cerevisiae	TTACTGTATGTACATACAGT	64378	activate	S. pyogenes	23977949	Lu
+ddx19	D. rerio	GGCAACAGATTCGTGGGCCC	47932	cut	S. pyogenes	23918387	Wente
+DDX3Y	H. sapiens	GCAGTTTAGCGATATTGACA	70656	cut	S. pyogenes	26472758	Sabatini
+DDX3Y	H. sapiens	TCTTGTTGGGGCTAAAACCA	70657	cut	S. pyogenes	26472758	Sabatini
+DNMT3A	H. sapiens	GAGATGATCGCCCCTTCTTC	41822	cut	S. pyogenes	23287722	Church
+DNMT3A	H. sapiens	GCATGATGCGCGGCCCAAGG	41821	cut	S. pyogenes	23287722	Church
+DNMT3B	H. sapiens	GAATTACTCACGCCCCAAGG	41823	cut	S. pyogenes	23287722	Church
+dpy-10	C. elegans	CGCTACCATAGGCACCACG	71516	cut	VRER Cas9 mutant	26680661	Fire
+dpy-10	C.elegans	GCTACCATAGGCACCACGAG	65630	cut	S. pyogenes	26044730	Katic
+dpy-10	C. elegans	GCTACCATAGGCACCACGAG	59933	cut	S. pyogenes	25161212	Fire
+dpy-10	C. elegans	TCCGCTACCATAGGCACCA	71479	cut	VQR Cas9 variant	26680661	Fire
+dpy‐10	C. elegans	GCTACCATAGGCACCACGAG	70047	cut	S. pyogenes	26187122	Seydoux
+drd3	D. rerio	GGAAACTACAGCCCAGCGTC	42242	cut	S. pyogenes	23360964	Joung
+DWD1	O. sativa	TGCATCGTCCAAGCGCACAG		cut	S. pyogenes	26479191	Kim
+DWD1	O. sativa	CTACGACGTCAGGTTCTACC		cut	S. pyogenes	26479191	Kim
+Ebf	C. intestinalis	GCTGAGGGTTGGACAACAGG	59990	cut	S. pyogenes	25336740	Christiaen
+EGFP	A. victoria	multiple, see article	60071	dCas9-FokI	S. pyogenes	24770325	Joung
+EGFP	A. victoria	GAAGTTCGAGGGCGACACCC	51764	cut	S. pyogenes	24336571	Zhang
+EGFP	A. victoria	GAGCTGGACGGCGACGTAAA	51761	cut	S. pyogenes	24336571	Zhang
+EGFP	A. victoria	GATGCCGTTCTTCTGCTTGT	47512	cut	S. pyogenes	23792628	Joung
+EGFP	A. victoria	GGAGCGCACCATCTTCTTCA	51763	cut	S. pyogenes	24336571	Zhang
+EGFP	A. victoria	GGCCACAAGTTCAGCGTGTC	51762	cut	S. pyogenes	24336571	Zhang
+EGFP	A. victoria	GGCGAGGGCGATGCCACCTA	61051	cut	S. pyogenes	24179142	Del Bene
+EGFP	A. victoria	GGGCACGGGCAGCTTGCCGG	46760	cut	S. pyogenes	23918387	Chen
+EGFP	A. victoria	GGGCACGGGCAGCTTGCCGG	47511	cut	S. pyogenes	23792628	Joung
+EGFP	A. victoria	GGGCGAGGAGCTGTTCACCG	51760	cut	S. pyogenes	24336571	Zhang
+EGFP	A. victoria	GGTGAACCGCATCGAGCTGA	51765	cut	S. pyogenes	24336571	Zhang
+EGFP	A. victoria	GGTGGTGCAGATGAACTTCA	47513	cut	S. pyogenes	23792628	Joung
+EGFP	A. victoria	TGAAGAAGATGGTGCGCTC	58255	cut	S. pyogenes	24870050	Goncalves
+EIF3D	H. sapiens	TGTAGGTTGCCTCCATGGCC	74187	cut	S. pyogenes	26627737	Moffat
+EIF3D	H. sapiens	AGACGACCCTGTCATCCGCA	74188	cut	S. pyogenes	26627737	Moffat
+Emx1	H. sapiens		42337	cut	S. pyogenes	23287718	Zhang
+EMX1	H. sapiens	GAGTCCGAGCAGAAGAAGAA	47508	cut	S. pyogenes	23792628	Joung
+EMX1	H. sapiens	CGATGTCACCTCCAATGACT		cut	S. pyogenes	26789497	Corn
+ETC2, TRY, and CPC	A. thaliana		71288	cut	S. pyogenes	26193878	Chen
+FADD	H. sapiens	ACTCCCGCACACGCTCTGTC	75166	cut	S. pyogenes	27194728	Bornhauser
+FANCF	H. sapiens	GGAATCCCTTCTGCAGCACC	47510	cut	S. pyogenes	23792628	Joung
+fbf-2	C. elegans	GTAGTCACGGCGATGATTA	65597	cut	S. pyogenes	25249454	Seydoux
+fbf-2	C. elegans	TAATCATCGCCGTGACTAC	65591	cut	S. pyogenes	25249454	Seydoux
+fh	D. rerio	GGAGCGAGCGGAGCGGTACA	42244	cut	S. pyogenes	23360964	Joung
+fh	D. rerio	GGAGCGGTACATGGCGACCG	42243	cut	S. pyogenes	23360964	Joung
+GABPA	H. sapiens	GAAAAGGATAATTGAGCCCCAGG	64254	tag	S. pyogenes	26355004	Mendenhall
+GABPA	H. sapiens	TTTGGAGTCTCAGAATGTCCTGG	64255	tag	S. pyogenes	26355004	Mendenhall
+GAL4 UAS		GAACGACTAGTTAGGCGTGTA	46916	activate	S. pyogenes	23849981	Qi
+GAL4 UAS		GTTGGAGCACTGTCCTCCGAACGT	46915	activate	S. pyogenes	23849981	Qi
+GAL4UAS		TGGGGACAGTACTCCGCTCGAGT	64158	activate	S. pyogenes	25619936	Sato
+GAL4UAS		TGGGTCTTCGGAGGACAGTACTC	64157	activate	S. pyogenes	25619936	Sato
+GAL4UAS		TGGTCCGTCTAGAAACTCGGTAC	64159	activate	S. pyogenes	25619936	Sato
+gfap	D. rerio	GTGCGCAACACATAGCACCA	65566	cut	S. pyogenes	25849248	Du
+GFP	A. victoria	GAATAGCTCAGAGGCCGAGG	46914	interfere	S. pyogenes	23849981	Qi
+GFP	A. victoria	GGAGCGCACCATCTTCTTCA	41820	cut	S. pyogenes	23287722	Church
+GFP	A. victoria	GTGAACCGCATCGAGCTGAA	41819	cut	S. pyogenes	23287722	Church
+GFP	Synthetic	gRNA1: GAGCTGGACGGCGACGTAAA; gRNA2: CAGAACACCCCCATCGGCGA	72619	cut	S. pyogenes	26493208	Guigo, Johnson
+GFPmut3b	A. victoria	ACCATCTAATTCAACAAGAATT	73221	interfere	S. pyogenes	26689101	Hudson
+GFPmut3b	synthetic	ACCATCTAATTCAACAAGAATT	73224	interfere	S. pyogenes	26689101	Hudson
+GLuc	synthetic	GATCTAGATACGACTCACTAT	68422	CRISPR-display	S. pyogenes	26030444	Rinn
+gp78	H. sapiens	GCCCAGCCTCCGCACCTACA	61833	cut	S. pyogenes	24424410	Ye
+gsk3b	D. rerio	GGGACCTGACCGGCCGCAGG	42245	cut	S. pyogenes	23360964	Joung
+his3	S. cerevisiae	ATTGCGATCTCTTTAAAGGG	64333	cut	S. pyogenes	25281382	Jin
+HPRT	H. sapiens	GACTGTAAGTGAATTACTT	69539	cut	S. pyogenes	26130722	Yan
+HPRT1	H. sapiens	CTGATAAAATCTACAGTCAT	58778	cut	S. pyogenes	24954249	Yamamoto
+HPRT1	H. sapiens	TTATGCTGAGGATTTGGAAA	58771	cut	S. pyogenes	24954249	Yamamoto
+IL1RN	H. sapiens	TGGACGCAGATAAGAACCAGTT	64142	activate	S. pyogenes	25619936	Sato
+IL1RN	H. sapiens	TGGCATCAAGTCAGCCATCAGC	64151	activate	S. pyogenes	25619936	Sato
+IL1RN	H. sapiens	TGGGAGTCACCCTCCTGGAAAC	64152	activate	S. pyogenes	25619936	Sato
+IL1RN	H. sapiens	TGGTGTACTCTCTGAGGTGCTC	64140	activate	S. pyogenes	25619936	Sato
+inverted GFP	A. victoria	GAGCGGCCGCTCGAGTCTAG	66582	cut	S. pyogenes	26018130	Xue
+inverted GFP	A. victoria	GATATCGAATTCCTGCAGCC	66583	cut	S. pyogenes	26018130	Xue
+inverted GFP	A. victoria	GTATCGATACCGTCGACCTCG	66581	cut	S. pyogenes	26018130	Xue
+inverted GFP	A. victoria	GTTGATCCATAACTTCGTAT	66584	cut	S. pyogenes	26018130	Xue
+IRF1	H. sapiens	CCGGGGGCGCTGGGCTGTCCCGG	61079	purify	S. pyogenes	23942116	Fujii
+IRF1	H. sapiens	GCGCTTACACTTTAGGAGACACTC	61080	purify	S. pyogenes	25051498	Fujii
+JAK2 amplicon	H. sapiens	GGTTTAATGGAAGAGAAGGG	70679	cut	S. pyogenes	26472758	Sabatini
+K08F4.2	C. elegans	AATCACTCCCTGTTTGTGT	66085	cut	S. pyogenes	25249454	Seydoux
+K08F4.2	C. elegans	CACGAGGTGGTATGCGCAG	66095	cut	S. pyogenes	25249454	Seydoux
+K08F4.2	C. elegans	CGCAGCGGTTTCCAAAATG	66092	cut	S. pyogenes	25249454	Seydoux
+K08F4.2	C. elegans	GCCTTAACCCAGAATAAGA	66087	cut	S. pyogenes	25249454	Seydoux
+K08F4.2	C. elegans	TATTAAATGCAGATAACCT	66089	cut	S. pyogenes	25249454	Seydoux
+KANK3	H. sapiens	GCATGGGTGATGTCAATGCC	69238	cut	S. pyogenes	26480473	Wolfe
+Kit-1	R. norvegicus	CATCTGTGCGGCCGTTGGCT	60969	cut	S. pyogenes	24967838	Mashimo
+Kit-2	R. norvegicus	CTAACGTTCCAGCGCTCGTT	60970	cut	S. pyogenes	24967838	Mashimo
+Kit-2	R. norvegicus	GTCAAGATGTCATCTTACGG	60971	cut	S. pyogenes	24967838	Mashimo
+klp-12	C. elegans	GATCCACAAGTTACAATTGG	46170	cut	S. pyogenes	23817069	Calarco
+Kras, p53, and Lkb1	M. musculus	multiple, see article	60224	cut	S. pyogenes	25263330	Zhang
+LacZ	E. coli	TGCGAATACGCCCACGCGAT	60225	cut	S. pyogenes	25263330	Zhang
+LacZ	E.coli	CCCGAATCTCTATCGTGCGG	74179	cut	S. pyogenes	26627737	Moffat
+lC.GA4a	B. oleracea	GTTGAGAGGGGAGCCGGTGA	68256	cut	S. pyogenes	26616834	Patron
+lC.GA4a	B. oleracea	GTTTTCACTTGCGGCCGGAG	68255	cut	S. pyogenes	26616834	Patron
+leu2	S. cerevisiae	AATCACAGCCGAAGCCATTA	64332	cut	S. pyogenes	25281382	Jin
+Lkb1	M. musculus	GTGGTGGGCCGCAGTCACAA	66894	cut	S. pyogenes	26178787	Winslow
+Lox-STOP-Lox	synthetic	GCGTATAGCATACATTATACG	66586	cut	S. pyogenes	26018130	Xue
+Lox-STOP-Lox	synthetic	GCGTATAGTACACATTATACG	66585	cut	S. pyogenes	26018130	Xue
+LRTM2	H. sapiens	GCTGGCGGAAGACAGAGTGC	69237	cut	S. pyogenes	26480473	Wolfe
+Luciferase		ACAACTTTACCGACCGCGCC	74190	cut	S. pyogenes	26627737	Moffat
+LYP1	S. cerevisiae	CATAATAACGTCCAATAAAT	60847	cut	S. pyogenes	25139909	Cate
+Malat1	H. sapiens	gRNA1: GAACCGGTGGGGCTGCGTCA; gRNA2: GGCAGGAGAGGCCAGTTGCG	72620	cut	S. pyogenes	26493208	Guigo, Johnson
+Malat1	H. sapiens	gRNA1: GCAACTTCCATTTTCAGTCT; gRNA2: GGAAGCCTCAGCTCGCCTGA	72621	cut	S. pyogenes	26493208	Guigo, Johnson
+Malat1	H. sapiens	gRNA1:GCTGGGGCTCAGTTGCGTAA; gRNA2:AGGTTTCTAAAACATGACGG	72622	cut	S. pyogenes	26493208	Guigo, Johnson
+Malat1	H. sapiens	gRNA1:GTTGAGATGAAGCTTCTTCA; gRNA2:TCAACCGTCCCTGCAAGGCT	72623	cut	S. pyogenes	26493208	Guigo, Johnson
+Malat1	H. sapiens	gRNA1: GAAACCTCGTGTAGCTATCA; gRNA2: AATGTGAAGGACTTTCGTAA	72624	cut	S. pyogenes	26493208	Guigo, Johnson
+Mettl14	M. musculus	GCCGCTCCCGGATCTCCTGC	61514	nick	S. pyogenes	25569111	Hanna
+Mettl14	M. musculus	GCGGCAGCTCCTAGCTCAGC	61515	nick	S. pyogenes	25569111	Hanna
+mitf	S. scrofa	CTTTCGGATATAATCCACGG	69801	cut	S. pyogenes	26293209	Zhao
+mitfa	D. rerio	GGTCTCTCGCAGGATGTTGC	47931	cut	S. pyogenes	23918387	Chen
+mKate	synthetic	ATGAGAATCAAGGCGGTCGA	62715	cut	S. pyogenes	25527740	Bleris
+MLKL	H. sapiens	ATCCCCGTGGATTCTGCTAA	75167	cut	S. pyogenes	27194728	Bornhauser
+mmp21	D. rerio	CGGAGCTGATCACTGACA	72890	cut	S. pyogenes	26429889	Katsanis
+MUC4	H. sapiens	GTGGCGTGACCTGTGGATGCTG	51025	visualize	S. pyogenes	24360272	Qi
+MYOD1	H. sapiens	TGGCCTCCCTCCCTGCCCGGTAG	64138	activate	S. pyogenes	25619936	Sato
+MYOD1	H. sapiens	TGGGAGGTTTGGAAAGGGCGTGC	64139	activate	S. pyogenes	25619936	Sato
+MYOD1	H. sapiens	TGGGCCTGGGCTCCGGGGCGTTT	64136	activate	S. pyogenes	25619936	Sato
+MYOD1	H. sapiens	TGGGGGCCCCTGCGGCCACCCCG	64137	activate	S. pyogenes	25619936	Sato
+NANOG	H. sapiens	TGGCATATTCCTGATTTAAAAGT	64156	activate	S. pyogenes	25619936	Sato
+NANOG	H. sapiens	TGGCGCCAGGAGGGGTGGGTCTA	64153	activate	S. pyogenes	25619936	Sato
+NANOG	H. sapiens	TGGGCCTTGGTGAGACTGGTAGA	64154	activate	S. pyogenes	25619936	Sato
+NANOG	H. sapiens	TGGTGTCTTCAGGTTCTGTTGCT	64155	activate	S. pyogenes	25619936	Sato
+NanoLuc	synthetic	AGCTTACGCCACCCTGTTCC	68897	interfere	S. pyogenes	26918244	Lu
+NanoLuc	synthetic	GACAGAACGATGCGCTGAAT	68898	interfere	S. pyogenes	26918244	Lu
+NanoLuc	synthetic	TCACGCTCACACCCAGGTTC	68895	interfere	S. pyogenes	26918244	Lu
+NanoLuc	synthetic	TTGATCCAAATTATAACCCG	68896	interfere	S. pyogenes	26918244	Lu
+NDM-1		GGGCAGTCGCTTCCAACGGTTTGATCGTCA	61270	cut	S. pyogenes	25240928	Lu
+near LoxP sites	synthetic	CGAAGTTATATTAAGGGTTC	69992	cut	S. pyogenes	25155555	Cepko
+negative control		CTGGAATGAATTGGCCTATG	68893	interfere	S. pyogenes	26918244	Lu
+negative control	M. musculus	GCGAGGTATTCGGCTCCGCG	66895	cut	S. pyogenes	26178787	Winslow
+negative control	C. intestinalis	GCTTTGCTACGATCTACATT	60006	cut	S. pyogenes	25336740	Christiaen
+negative control	synthetic	GTCAAGGCACTCTTGCCTA	64955	cut	S. pyogenes	25527740	Bleris
+negative control	H. sapiens	GTTCCGCGTTACATAACTTA	50927		S. pyogenes	24346702	Wolfe
+Neomycin		TCATGGCTGATGCAATGCGG	67594	cut	S. pyogenes	26178787	Winslow
+NeuN	M. musculus	TCCGGTTCAGGGACCCCGAC	60227	cut	S. pyogenes	25263330	Zhang
+Neurog2	H. sapiens	GTCTCTATCACTGATAGGGA	64161	activate	S. pyogenes	25619936	Sato
+Neurog2	H. sapiens	GTGAATGATGATAATACGAT	64160	activate	S. pyogenes	25619936	Sato
+Non-targeting	H. sapiens	GTAGGCGCGCCGCTCTCTAC	71830	methylation	S. pyogenes	26969735	Zoldoš
+Oct4	H. sapiens	CTCCCATGCATTCAAACTG	66989	cut	S. pyogenes	26028531	Huangfu
+Oct4	H. sapiens	multiple, see article	69537	activate	S. pyogenes	26352799	Otonkoski
+Oct4	H. sapiens	GTTGTAGCTCCCTTTCTCATTTCG	47870	cut	N. meningitidis	23940360	Thomson
+Oct4A (POU5F1)	H. sapiens	GGGGCGCCAGTTGTGTCTCC	50922	interfere	S. pyogenes	24346702	Wolfe
+Oct4A (POU5F1)	H. sapiens	GTGGGACTGGGGAGGGAGAG	50921	interfere	S. pyogenes	24346702	Wolfe
+P450	O. sativa	CATATAGTTGGGTCATGGCA		cut	S. pyogenes	26479191	Kim
+Pal1	synthetic	GCTCTGTGACTAGTCACAGAG	71483	cut	S. pyogenes	26527385	Sherwood
+Pal7	synthetic	GGCTTAGTACTAGTACTAAGC	71484	cut	S. pyogenes	26527385	Sherwood
+PAX6	H. sapiens	GATACTGGAGAAGCAGGGGC	68466	cut	S. pyogenes	26145478	Zhang
+PAX6	H. sapiens	GTAGATTTTGTATGCACTGC	68465	cut	S. pyogenes	26145478	Zhang
+PcfiA		AAACAAAACCTCATCAGGCA	68900	interfere	S. pyogenes	26918244	Lu
+PcfiA		GAAGCTCACTCCTTAGCACG	68899	interfere	S. pyogenes	26918244	Lu
+pck	C. glutamicum	AGGGCGAGGCGCCGACCAAGAATA	74068	interfere	S. pyogenes	26829286	Lu
+pck	C. glutamicum	TCCAGTTCAGCAGTTCCTTATTCT	74069	interfere	S. pyogenes	26829286	Lu
+PDS	N. benthamiana	GCCGTTAATTTGAGAGTCCA	46966	cut	S. pyogenes	23929340	Kamoun
+PDS1	N. benthamiana	multiple, see article	49772	cut	S. pyogenes	24112467	Kamoun
+PDS3	A. thaliana	GGACTTTTGCCAGCCATGGT	52255	cut	S. pyogenes	23929339	Sheen
+pgi	C. glutamicum	TGACCGATCATTACTCAAACTTCC	74066	interfere	S. pyogenes	26829286	Lu
+pgi	C. glutamicum	TTGCCTGGAAGTTTGAGTAATGAT	74067	interfere	S. pyogenes	26829286	Lu
+pGL3-Basic-8x-gRNA-eGFP reporter	synthetic	AAAGGTCGAGAAACTGCAAA	60719	activate	S. pyogenes	25664691	Gersbach
+pha-1	C. elegans	ATGAATAACTTGATGAACAT	61252	cut	S. pyogenes	25491644	Ward
+PHYB	A. thaliana	CACTAGGAGCAACACCCAA		cut	S. pyogenes	26479191	Kim
+PLXNB2	H. sapiens	GGGCCCAACCTAGGGCATGG	69240	cut	S. pyogenes	26480473	Wolfe
+PM19	H. vulgare	GCTCTCCACTCTGGGCTCTT	68253	cut	S. pyogenes	26616834	Patron
+PM19	H. vulgare	GGCTGGCGTTGGTCGTAACA	68254	cut	S. pyogenes	26616834	Patron
+Prkaa1	M. musculus	TTATTGTCACAGGCATATGG	79004	cut	S. pyogenes	26944679	Shaw
+Prkaa2	M. musculus	ACAGGCATATGGTTGTCCAT	79005	cut	S. pyogenes	26944679	Shaw
+Prnp	M. musculus	GGTGGAACACCGGTGGAAGC	61857	cut	S. pyogenes	25490046	Schmitt-Ulms
+Prnp	M. musculus	TTGGCCCCATCCACCGCCAT	61856	cut	S. pyogenes	25490046	Schmitt-Ulms
+Protospacer A	Synthetic	TACCATCTCAAGCTTGTTGA	48651	cut	N. meningitidis	24076762	Church
+Protospacer A	Synthetic	TACCATCTCAAGCTTGTTGA	48653	cut	S. thermophilus	24076762	Church
+Protospacer A	Synthetic	TACCATCTCAAGCTTGTTGA	48655	cut	T. denticola	24076762	Church
+Protospacer B	Synthetic	ACTTTAAAAGTATTCGCCAT	48652	cut	N. meningitidis	24076762	Church
+Protospacer B	Synthetic	ACTTTAAAAGTATTCGCCAT	48654	cut	S. thermophilus	24076762	Church
+Protospacer B	Synthetic	ACTTTAAAAGTATTCGCCAT	48656	cut	T. denticola	24076762	Church
+PSMB2	H. sapiens	ATGTTCTTGTCGCCTCCGAC	74184	cut	S. pyogenes	26627737	Moffat
+PSMB2	H. sapiens	AATATTGTCCAGATGAAGGA	74185	cut	S. pyogenes	26627737	Moffat
+PSMD1	H. sapiens	TGTGCGCTACGGAGCTGCAA	74180	cut	S. pyogenes	26627737	Moffat
+PSMD1	H. sapiens	ACCAGAGCCACAATAAGCCA	74181	cut	S. pyogenes	26627737	Moffat
+Pten	M. musculus	AGATCGTTAGCAGAAACAAA	59909	cut	S. pyogenes	25119044	Jacks
+Pten	M. musculus	GCTGTAGTAATATCTGCTAT	66588	cut	S. pyogenes	26018130	Xue
+Pten	M. musculus	GTTTCATAGCGGCCACGAAGT	66587	cut	S. pyogenes	26018130	Xue
+pyk	C. glutamicum	AGATTGTATGTACCCTAGGCCCAG	74070	interfere	S. pyogenes	26829286	Lu
+pyk	C. glutamicum	ATTCCATCTGCACTAGCCACCGCT	74072	interfere	S. pyogenes	26829286	Lu
+RAD21	H. sapiens	CCAAGGTTCCATATTATATAAGG	64057	tag	S. pyogenes	26355004	Mendenhall
+rde-1(D718)	C. elegans	TGCCATTAACTATGTATGT	59927	cut	S. pyogenes	25161212	Fire
+rde-1(D801)	C. elegans	GATATTGTAGTCTATCGAGA	59928	cut	S. pyogenes	25161212	Fire
+rde-1(H974)	C. elegans	GATAAATGAGCATAATGAAC	59929	cut	S. pyogenes	25161212	Fire
+rfp		AAGTTCGTATGGAAGGTTCCGTTAA	74075	interfere	S. pyogenes	26829286	Lu
+rgs4	D. rerio	GGAGAAGGTGAAGGACACTG	42246	cut	S. pyogenes	23360964	Joung
+RIP3	H. sapiens	TACACGAGTGATGGTTCGGT	75165	cut	S. pyogenes	27194728	Bornhauser
+RIPK1	H. sapiens	GCTCTGCTGGGAAGCGAATC	75163	cut	S. pyogenes	27194728	Bornhauser
+RNF2	H. sapiens	GTCATCTTAGTCATTACCTG	47509	cut	S. pyogenes	23792628	Joung
+rol-6(su1006)	C. elegans	GTGAGACGTCAACAATATGG	59930	cut	S. pyogenes	25161212	Fire
+Rosa26	M.musculus	ACTCCAGTCTTTCTAGAAGA	64216	cut	S. pyogenes	25803306	Kuhn
+rpsL	E. coli	AAAAAACCGAACTCCGCGCTGCGTAAAGTA	44505	cut	S. pyogenes	23360965	Marraffini
+scramble	synthetic	AACCCCTGATTGTATCCGCA	62285	interfere	S. pyogenes	25422271	Voigt
+slc24a5 (golden)	D. rerio	GGTCTCTCGCAGGATGTTGC	47930	cut	S. pyogenes	23918387	Chen
+SOX17	H. sapiens	GCCCAGCCCGGCCATCACCG	59725	cut	S. pyogenes	25543152	Hanna
+Sox17	H. sapiens	GCTCCGGCTAGTTTTCCCGG	50925	activate	S. pyogenes	24346702	Wolfe
+Sox17	H. sapiens	GGAGGGGCAAGGGGCGGGCG	50924	activate	S. pyogenes	24346702	Wolfe
+Sox17	H. sapiens	GGGCAAGTACGTCGATTCCA	50926	activate	S. pyogenes	24346702	Wolfe
+Sox17	H. sapiens	GGGCGTGGGCCTAACGACGC	50923	activate	S. pyogenes	24346702	Wolfe
+sqt-1	C. elegans	GGAAGGACATAGTTGTCAT	59935	cut	S. pyogenes	25161212	Fire
+sqt-1	C. elegans	TGTGGAGTTGGGGTAGCGT	60212	cut	S. pyogenes	25161212	Fire
+sv40 promoter	synthetic	CATACTTCTGCCTGCTGGGGAGCCTG	62338	activate/interfere	S. pyogenes	25533786	Qi
+SV40.NT1	H. sapiens	GAATAGCTCAGAGGCCGAGG	62340	scaffold	S. pyogenes	25533786	Qi & Lim
+swan-2	C. elegans	ACAAATTGATATCCAATCA	66100	cut	S. pyogenes	25249454	Seydoux
+swan-2	C. elegans	TGAAGAAAGTTATACTCGA	66099	cut	S. pyogenes	25249454	Seydoux
+T (BRACHYURY)	H. sapiens	CACGCGCAGTTCGCGCTCTG	59726	cut	S. pyogenes	25543152	Hanna
+TCRC	H. sapiens	gRNA1:GGGGAGCGGGAAAGCGGTCG; gRNA2:AACTGACCTTCAGGCCCGTA	72627	cut	S. pyogenes	26493208	Guigo, Johnson
+tdtomato	Synthetic	CGAAATGAGAAAGGGAGCTACAAC	47869	cut	N. meningitidis	23940360	Thomson
+TEF	S. cerevisiae	TTGATATTTAAGTTAATAAA	62320	scaffold	S. pyogenes	25533786	Qi & Lim
+TEF1	S. cerevisiae	TTGATATTTAAGTTAATAAA	46922	interfere	S. pyogenes	23849981	Weissman
+telomeres	H. sapiens	GTTAGGGTTAGGGTTAGGGTTA	51024	visualize	S. pyogenes	24360272	Qi
+TET	S. cerevisiae	ACTTTTCTCTATCACTGATA	62313	scaffold	S. pyogenes	25533786	Qi & Lim
+TET promoter		TATCAGTGATAGAGAAAAGT	46923	interfere	S. pyogenes	23849981	Weissman
+Tet3G	synthetic	GTACGTTCTCTATCACTGATA	62327	activate/interfere	S. pyogenes	25533786	Qi
+Tfeb	M. musculus	AGCACTGTTGCCGGCCGAGG	79006	cut	S. pyogenes	26944679	Shaw
+TFRC	H. sapiens	GCACUGACCAGAUAAGAAUG	74709	RNA targeting	S. pyogenes	26997482	Yeo
+TFRC	H. sapiens	gRNA1:GCAGCCTCAGAAATACAAAA, gRNA2CGGGATATCGGGTGGCGGCT	72626	cut	S. pyogenes	26493208	Guigo, Johnson
+TGM2	H. sapiens	CCTGGACCCAACGCCCCAGG	69239	cut	S. pyogenes	26480473	Wolfe
+TGME49_290860	T. gondii	ATTGGTCTGACAGCGATGTG	59855	cut	S. pyogenes	25480939	Sibley
+th	D. rerio	GGATGCGCGTAAGGAGCGCG	42247	cut	S. pyogenes	23360964	Joung
+th	D. rerio	GGGTTGTTACACTCATAAAG	65565	cut	S. pyogenes	25849248	Du
+tia1l	D. rerio	GGTATGTCGGGAACCTCTCC	42248	cut	S. pyogenes	23360964	Joung
+tph1a	D. rerio	GGGAAAACACAACCGCAGCC	42249	cut	S. pyogenes	23360964	Joung
+TRE3G	H. sapiens	GTACGTTCTCTATCACTGATA	62325	scaffold	S. pyogenes	25533786	Qi & Lim
+trp1	S. cerevisiae	GTCAATTGTTCTCTTTCTAT	64331	cut	S. pyogenes	25281382	Jin
+Trp53	M. musculus	CCTCGAGCTCCCTCTGAGCC	59910	cut	S. pyogenes	25119044	Jacks
+TS2	H. sapiens	GACCCCCTCCACCCCGCCTC	69234	cut	S. pyogenes	26480473	Wolfe
+TS3	H. sapiens	GGTGAGTGAGTGTGTGCGTG	69235	cut	S. pyogenes	26480473	Wolfe
+TS4	H. sapiens	GAGTCCGAGCAGAAGAAGAA	69236	cut	S. pyogenes	26480473	Wolfe
+ttTi5605 Mos1 insertion site	C. elegans	ATATCAGTCTGTTTCGTAA	47550	cut	S. pyogenes	23995389	Goldstein
+tyr	D. rerio	CCCCAGAAGTCCTCCAGTCC	46761	cut	S. pyogenes	23918387	Chen
+tyr	D. rerio	GGACTGGAGGACTTCTGGGG	64250	cut	S. pyogenes	25855067	Chen
+Tyr (albino)	R. norvegicus	TTTCCAGGATTATGTAATAG	60966	cut	S. pyogenes	24967838	Mashimo
+Tyr (wild type)	R. norvegicus	TTTCCAGGATTACGTAATAG	60967	cut	S. pyogenes	24967838	Mashimo
+UCA1	H. sapiens	gRNA1:GGTTTCCTTTTAGATGACGG; gRNA2:TCTGAAAAGAGAGTCAGCGA	72628	cut	S. pyogenes	26493208	Guigo, Johnson
+unc-109(n499)	C. elegans	GGAACTCGTGTCAAAACAAC	59932	cut	S. pyogenes	25161212	Fire
+unc-119	C. elegans	GAATTTTCTGAAATTAAAGA	46169	cut	S. pyogenes	23817069	Calarco
+unc-22	C. elegans	GAACCCGTTGCCGAATACAC	58202	cut	S. pyogenes	24879462	Mello
+unc-58(e665)	C. elegans	TCCACGCACATGGTCACTA	59931	cut	S. pyogenes	25161212	Fire
+UPRT	Toxoplasma gondii	GGCGTCTCGATTGTGAGAGC	54467	cut	S. pyogenes	24825012	Sibley
+ura3	S. cerevisiae	GAGTAAAAAATTGTACTTGG	64330	cut	S. pyogenes	25281382	Jin
+USP13	H. sapiens	GCCGCCCGGCATGCCGAACA	61812	cut	S. pyogenes	24424410	Ye
+VEGF	H. sapiens	GACCCCCTCCACCCCGCCTC	47506	cut	S. pyogenes	23792628	Joung
+VEGF	H. sapiens	GGGTGGGGGGAGTTTGCTCC	47505	cut	S. pyogenes	23792628	Joung
+VEGF	H. sapiens	GGTGAGTGAGTGTGTGCGTG	47507	cut	S. pyogenes	23792628	Joung
+VR	synthetic	TGCGCTCGGTCGTTCGGCTG	62286	interfere	S. pyogenes	25422271	Voigt
+xylR	C. beijerinckii	CGAGTTAGACATAATAGTGA	73228	nick	S. pyogenes	27213844	Yang
+Y61A9LA.1	C. elegans	GGATGGATGTGTAGTCAATT	61250	cut	S. pyogenes	25491644	Ward
+yellow	D. melanogaster	GGTTTTGGACACTGGAACCG	49331	cut	S. pyogenes	24326186	Liu
