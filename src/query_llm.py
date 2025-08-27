@@ -1,10 +1,4 @@
 from query_rag import RAGQueryInterface
-import anthropic
-from dotenv import dotenv_values
-
-
-envvars = dotenv_values(".env")
-anthropic_client = anthropic.Anthropic(api_key=envvars["ANTHROPIC_API_KEY"])
 
 
 def format_results(results):
@@ -55,21 +49,44 @@ def main():
             f"Answer the following prompt: {prompt}"
             )
     print("\n" * 5)
-    print(llm_prompt)
 
-    # query Claude Haiku 3
-    message = anthropic_client.messages.create(
-            model="claude-3-7-sonnet-latest",
-            max_tokens=1500,
-            messages=[
-                {
-                    "role": "user",
-                    "content": llm_prompt
-                    }
-                ]
-            )
+    query_type = input("Would you like to query [C]laude 3.7 Sonnet or a [L]ocal Model (Llama 3.2)? ")
+    if query_type.lower() not in ("c", "l"):
+        raise Exception("Please enter \"C\" or \"L\"")
+    elif query_type.lower() == "c":  # query Claude Sonnet 3.7
+        import anthropic
+        from dotenv import dotenv_values
 
-    print(message.content[0].text)
+
+        envvars = dotenv_values(".env")
+        anthropic_client = anthropic.Anthropic(api_key=envvars["ANTHROPIC_API_KEY"])
+
+
+        message = anthropic_client.messages.create(
+                model="claude-3-7-sonnet-latest",
+                max_tokens=1500,
+                messages=[
+                    {
+                        "role": "user",
+                        "content": llm_prompt
+                        }
+                    ]
+                )
+
+        print(message.content[0].text)
+    elif query_type.lower() == "l":  # query Llama 3.2
+        from ollama import chat
+        from ollama import ChatResponse
+
+        response: ChatResponse = chat(model='llama3.2', messages=[
+            {
+                "role": "user",
+                "content": llm_prompt
+                }
+            ])
+
+        print(response.message.content)
+
 
 
 if __name__ == '__main__':
