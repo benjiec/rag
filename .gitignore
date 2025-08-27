@@ -1,4 +1,5 @@
 __claude_api_key*
 chromadb-data
+ollama-data
 __pycache__
 .env

@@ -1,4 +1,3 @@
-version: '3.8'
 services:
   chromadb:
     image: chromadb/chroma:latest
@@ -6,22 +5,49 @@ services:
       - "8000:8000"
     volumes:
       - ./chromadb-data:/data
+    networks:
+      - llm-network
+    restart: unless-stopped
     environment:
       - IS_PERSISTENT=TRUE # Ensures data persists across container restarts
       - ANONYMIZED_TELEMETRY=FALSE # Optional: disable telemetry
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - 11434:11434
+    volumes:
+      - ./ollama-data:/root/.ollama
+    networks:
+      - llm-network
+    restart: unless-stopped
+    entrypoint: ["/bin/bash", "-c", "\
+      ollama serve & \
+      sleep 1 && \
+      ollama pull llama3.2 && \
+      wait"]
 
   rag:
     build: .
     depends_on:
       - chromadb
+      - ollama
     volumes:
       - ./data:/app/data
       - .:/app
+    networks:
+      - llm-network
     environment:
       - CHROMADB_HOST=chromadb
       - CHROMADB_PORT=8000
+      - OLLAMA_HOST=ollama
+
     # Override this command to run different scripts:
     # docker-compose run rag python src/inject_data.py
     # docker-compose run rag python src/demo_rag.py
     # docker-compose run rag python src/query_rag.py
-    command: ["python", "src/demo_rag.py"]
+    # command: ["python", "src/demo_rag.py"]
+
+networks:
+  llm-network:
+    driver: bridge
