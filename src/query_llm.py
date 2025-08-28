@@ -75,17 +75,11 @@ def main():
 
         print(message.content[0].text)
     elif query_type.lower() == "l":  # query Llama 3.2
-        from ollama import chat
-        from ollama import ChatResponse
+        from ollama import generate
 
-        response: ChatResponse = chat(model='llama3.2', messages=[
-            {
-                "role": "user",
-                "content": llm_prompt
-                }
-            ])
+        response = generate(model='llama3.2', prompt=llm_prompt)
 
-        print(response.message.content)
+        print(response['response'])
 
 
 
