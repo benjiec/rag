@@ -11,6 +11,7 @@ import os
 import sys
 from typing import List, Dict, Any
 import logging
+import json
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -26,49 +27,23 @@ def read_tsv_data(file_path: str) -> pd.DataFrame:
         logger.error(f"Error reading TSV file: {e}")
         sys.exit(1)
 
-def create_documents(df: pd.DataFrame) -> List[Dict[str, Any]]:
+def read_json_data(file_path: str) -> dict:
+    with open(file_path, "r") as f:
+        data = json.load(f)
+
+    return data
+
+def create_documents(plasmid_data: dict) -> List[Dict[str, Any]]:
     """Convert DataFrame rows to document format for ChromaDB."""
     documents = []
     
-    for idx, row in df.iterrows():
-        # Create a comprehensive text representation of each entry
-        text_parts = []
-        
-        if pd.notna(row['Target']):
-            text_parts.append(f"Target: {row['Target']}")
-        if pd.notna(row['Species']):
-            text_parts.append(f"Species: {row['Species']}")
-        if pd.notna(row['gRNA sequence']):
-            text_parts.append(f"gRNA sequence: {row['gRNA sequence']}")
-        if pd.notna(row['Addgene Plasmid ID']):
-            text_parts.append(f"Addgene Plasmid ID: {row['Addgene Plasmid ID']}")
-        if pd.notna(row['Application']):
-            text_parts.append(f"Application: {row['Application']}")
-        if pd.notna(row['Cas9 species']):
-            text_parts.append(f"Cas9 species: {row['Cas9 species']}")
-        if pd.notna(row['Pubmed ID']):
-            text_parts.append(f"Pubmed ID: {row['Pubmed ID']}")
-        if pd.notna(row['Author/Lab']):
-            text_parts.append(f"Author/Lab: {row['Author/Lab']}")
-        
-        # Combine all parts into a single text document
-        document_text = " | ".join(text_parts)
-        
-        # Create metadata
-        metadata = {
-            'target': str(row['Target']) if pd.notna(row['Target']) else '',
-            'species': str(row['Species']) if pd.notna(row['Species']) else '',
-            'grna_sequence': str(row['gRNA sequence']) if pd.notna(row['gRNA sequence']) else '',
-            'addgene_id': str(row['Addgene Plasmid ID']) if pd.notna(row['Addgene Plasmid ID']) else '',
-            'application': str(row['Application']) if pd.notna(row['Application']) else '',
-            'cas9_species': str(row['Cas9 species']) if pd.notna(row['Cas9 species']) else '',
-            'pubmed_id': str(row['Pubmed ID']) if pd.notna(row['Pubmed ID']) else '',
-            'author_lab': str(row['Author/Lab']) if pd.notna(row['Author/Lab']) else '',
-            'row_index': idx
-        }
+    for data in plasmid_data['plasmids']:
+        idx = data['id']
+        document_text = str(data)
+        metadata = data
         
         documents.append({
-            'id': f"entry_{idx}",
+            'id': idx,
             'text': document_text,
             'metadata': metadata
         })
@@ -128,16 +103,16 @@ def inject_into_chromadb(documents: List[Dict[str, Any]], collection_name: str =
 def main():
     """Main function to orchestrate the data injection process."""
     # Check if data file exists
-    data_file = "data/grna_addgene.tsv"
+    data_file = "data/addgene_plasmid_data.json"
     if not os.path.exists(data_file):
         logger.error(f"Data file not found: {data_file}")
         sys.exit(1)
     
     # Read data
-    df = read_tsv_data(data_file)
+    addgene_dict = read_json_data(data_file)
     
     # Create documents
-    documents = create_documents(df)
+    documents = create_documents(addgene_dict)
     
     # Inject into ChromaDB
     collection = inject_into_chromadb(documents)

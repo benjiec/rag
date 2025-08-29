@@ -1,5 +1,6 @@
 __claude_api_key*
 chromadb-data
+data/addgene_plasmid_data.json
 ollama-data
 __pycache__
 .env
