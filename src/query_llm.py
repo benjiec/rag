@@ -35,6 +35,7 @@ def main():
 
     # parse into an llm prompt
     formatted_results = format_results(results)
+    print(formatted_results)
     print("\n" * 5)
     llm_prompt = (
             "You are a helpful assistant in a retrieval-augmented generation system. "

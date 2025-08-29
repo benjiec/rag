@@ -4,6 +4,7 @@ Script to inject gRNA Addgene data into ChromaDB for RAG system.
 This script reads the TSV file and creates embeddings for each entry.
 """
 
+from numpy import insert
 import pandas as pd
 import chromadb
 from chromadb.config import Settings
@@ -37,10 +38,18 @@ def create_documents(plasmid_data: dict) -> List[Dict[str, Any]]:
     """Convert DataFrame rows to document format for ChromaDB."""
     documents = []
     
-    for data in plasmid_data['plasmids']:
-        idx = data['id']
+    for index, data in enumerate(plasmid_data['plasmids']):
+        if index % 10 != 0:
+            continue
+
+        idx = str(data['id'])
         document_text = str(data)
-        metadata = data
+        metadata = {
+                'bacterial_resistance': data['bacterial_resistance'],
+                'cloning_backbone': data['cloning']['backbone'],
+                'resistance_markers': ','.join(data['resistance_markers']),
+                'vector_types': ','.join(data['cloning']['vector_types'])
+                }
         
         documents.append({
             'id': idx,
@@ -50,6 +59,19 @@ def create_documents(plasmid_data: dict) -> List[Dict[str, Any]]:
     
     logger.info(f"Created {len(documents)} documents")
     return documents
+
+def insert_documents(documents, collection):
+    # Prepare data for insertion
+    ids = [doc['id'] for doc in documents]
+    texts = [doc['text'] for doc in documents]
+    metadatas = [doc['metadata'] for doc in documents]
+    
+    # Add documents to collection
+    collection.add(
+        ids=ids,
+        documents=texts,
+        metadatas=metadatas
+    )
 
 def inject_into_chromadb(documents: List[Dict[str, Any]], collection_name: str = "grna_addgene"):
     """Inject documents into ChromaDB."""
@@ -75,18 +97,9 @@ def inject_into_chromadb(documents: List[Dict[str, Any]], collection_name: str =
             collection = client.get_collection(name=collection_name)
             logger.info(f"Using existing collection: {collection_name}")
         
-        # Prepare data for insertion
-        ids = [doc['id'] for doc in documents]
-        texts = [doc['text'] for doc in documents]
-        metadatas = [doc['metadata'] for doc in documents]
-        
-        # Add documents to collection
-        collection.add(
-            ids=ids,
-            documents=texts,
-            metadatas=metadatas
-        )
-        
+        for i in range(0, len(documents), 2000):
+            insert_documents(documents[i:i+2000], collection)
+
         logger.info(f"Successfully injected {len(documents)} documents into ChromaDB")
         
         # Print collection info
