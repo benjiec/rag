@@ -133,7 +133,7 @@ def main():
     collection = inject_into_chromadb(documents)
     
     logger.info("Data injection completed successfully!")
-    logger.info("You can now query the database using the query_rag.py script")
+    logger.info("You can now query the database using the query_llm.py script")
 
 if __name__ == "__main__":
     main()
