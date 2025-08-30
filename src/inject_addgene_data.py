@@ -31,11 +31,13 @@ def read_tsv_data(file_path: str) -> pd.DataFrame:
 def read_json_data(file_path: str) -> dict:
     with open(file_path, "r") as f:
         data = json.load(f)
+        for plasmid_data in data['plasmids']:
+            del plasmid_data['sequences']
 
     return data
 
 def create_documents(plasmid_data: dict) -> List[Dict[str, Any]]:
-    """Convert DataFrame rows to document format for ChromaDB."""
+    """Convert json data to document format for ChromaDB."""
     documents = []
     
     for index, data in enumerate(plasmid_data['plasmids']):
