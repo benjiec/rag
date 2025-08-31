@@ -18,6 +18,9 @@ import json
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# Set up PubMed collection config
+created_collection = False
+
 
 def read_addgene_collection(collection_name: str = "grna_addgene"):
     """Read the ChromaDB Addgene collection"""
@@ -33,7 +36,7 @@ def read_addgene_collection(collection_name: str = "grna_addgene"):
 
     try:
         addgene_collection = client.get_collection(name=collection_name)
-        results = addgene_collection.get()
+        results = addgene_collection.get()['metadatas']
         logger.info(f"Successfully read {len(results)} documents from {collection_name}")
         return results
     except Exception as e:
@@ -42,8 +45,8 @@ def read_addgene_collection(collection_name: str = "grna_addgene"):
         sys.exit(1)
 
 def read_pubmed_collection(collection_name: str = "pubmed_abstracts"):
-    """Read the ChromaDB PubMed collection"""
-    # Connect to ChromaDB
+    """Read the ChromaDB PubMed collection""" # Connect to ChromaDB
+    global created_collection
     host = os.getenv('CHROMADB_HOST', 'localhost')
     port = int(os.getenv('CHROMADB_PORT', '8000'))
 
@@ -53,15 +56,33 @@ def read_pubmed_collection(collection_name: str = "pubmed_abstracts"):
         settings=Settings(anonymized_telemetry=False)
         )
 
+
     try:
-        addgene_collection = client.get_collection(name=collection_name)
-        results = addgene_collection.get()
-        logger.info(f"Successfully read {len(results)} documents from {collection_name}")
-        return results
-    except Exception as e:
-        logger.error(f"Error reading PubMed collection: {e}")
-        logger.error(f"Make sure the PubMed collection has been created before running this script")
-        sys.exit(1)
+        pubmed_collection = client.create_collection(name=collection_name)
+        created_collection = True
+        logger.info(f"Successfully created collection {collection_name}")
+        return []
+    except Exception:
+        try:
+            pubmed_collection = client.get_collection(name=collection_name)
+            results = pubmed_collection.get()['metadatas']
+            logger.info(f"Successfully read {len(results)} documents from {collection_name}")
+            return results
+        except Exception as e:
+            logger.error(f"Error reading PubMed collection: {e}")
+            sys.exit(1)
+
+def filter_addgene_data(addgene_data, pubmed_data):
+    global created_collection
+    if not addgene_data:
+        logger.error("No addgene data provided to filter_addgene_data")
+    if not pubmed_data:
+        logger.error("No PubMed data provided to filter_addgene_data")
+
+    if created_collection:
+        for result in addgene_data:
+            print(result)
+            exit()
 
 
 # def create_documents(plasmid_data: dict) -> List[Dict[str, Any]]:
@@ -147,5 +168,17 @@ def main():
     """Main function to orchestrate the data injection process."""
     logger.error("This function has not been created yet")
 
+    addgene_data = read_addgene_collection()  # read the ChromaDB collection with addgene's data
+    pubmed_data = read_pubmed_collection()  # read the ChromaDB collection with the PubMed data
+    filtered_addgene_data = filter_addgene_data(addgene_data, pubmed_data)  # filter the addgene data for plasmids not in pubmed collection
+    pmids = get_pubmed_ids(filtered_addgene_data)  # get the PubMed IDs for the plasmids not in pubmed collection
+    documents = create_documents(pmids)  # convert PubMed IDs into injectable documents
+    collection = inject_into_chromadb(documents)  # inject the documents into chromadb
+
+    logger.info("Data injection completed sucessfully!")
+
+
 if __name__ == "__main__":
-    main()
+    addgene_data = read_addgene_collection()
+    pubmed_data = read_pubmed_collection()
+    filter_addgene_data(addgene_data, pubmed_data)
