@@ -47,7 +47,7 @@ def create_documents(plasmid_data: dict) -> List[Dict[str, Any]]:
         idx = str(data['id'])
         document_text = str(data)
         metadata = {
-                'pubmed_id': data['article']['pubmed_id'],
+                'pubmed_id': str(data['article']['pubmed_id']),
                 'bacterial_resistance': data['bacterial_resistance'],
                 'cloning_backbone': data['cloning']['backbone'],
                 'resistance_markers': ','.join(data['resistance_markers']),
